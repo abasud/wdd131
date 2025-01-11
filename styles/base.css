@@ -109,6 +109,7 @@ article {
 
 .bio img {
   width: 10rem;
+  height: auto;
   border: 2px solid black;
   margin-left: auto;
 }
