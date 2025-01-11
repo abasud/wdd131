@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+body {
+  max-width: 100%;
+}
+
 header {
     background: var(--accent1-color);
     height: 15vh;
@@ -20,7 +24,7 @@ header {
     align-items: center;
   }
 
-  header nav {
+header nav {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -61,6 +65,7 @@ header h1 {
 }
   
 main {
+    max-width: 100%;
     height: 70vh;
     background: var(--secondary-color);
     display: grid;
