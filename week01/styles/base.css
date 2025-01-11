@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #093A3E;
+    --secondary-color: #3AAFB9;
+    --accent1-color: #64E9EE;
+    --accent2-color: #EDBF85;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+  }
+
+header {
+    background: var(--accent1-color);
+    height: 15vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header h1 {
+    padding-bottom: 3rem;
+    color: var(--primary-color);
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: var(--primary-color);
+	align-items: center;
+}
+
+.navigation li {
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: var(--accent1-color);
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+  font-size: 1.2rem;
+  transition: all 0.1s ease;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation a:hover {
+  border-bottom: 5px solid;
+  color: var(--accent1-color);
+}
+  
+main {
+    height: 70vh;
+    background: var(--secondary-color);
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+    padding: 3rem;
+    gap: 5rem;
+    border-bottom: 2px solid black;
+  }
+
+  h1, h2 {
+    font-family: "Roboto", sans-serif;
+  }
+
+.card {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: var(--accent2-color);
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: var(--primary-color);
+  border-radius: 0.35rem 0.35rem 0 0;
+  color: var(--accent1-color);
+  font-size: 1.2rem;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  margin: 0 10% 0 10%;
+  font-size: 1.2rem;
+}
+
+article {
+  display: flex;
+  margin: 1rem;
+}
+
+.bio img {
+  width: 10rem;
+  border: 2px solid black;
+  margin-left: auto;
+}
+
+.city-img {
+  width: 30rem;
+}
+
+p {
+  font-size: 1rem;
+  padding: 0 1rem 0 1rem;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  margin: 3rem 0 0 3rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+  
+footer {
+    padding: 2rem;
+    background: var(--accent1-color);
+    height: 15vh;
+  }
+
+.footer-js {
+  text-align: center;
+}
+
