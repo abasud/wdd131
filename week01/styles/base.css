@@ -60,8 +60,8 @@ header h1 {
 }
 
 .navigation a:hover {
-  border-bottom: 5px solid;
-  color: var(--accent1-color);
+  text-decoration: underline;
+  color: var(--accent2-color);
 }
   
 main {
@@ -114,7 +114,12 @@ article {
 }
 
 .city-img {
-  width: 30rem;
+  width: 10rem;
+  border: 2px solid black;
+}
+
+.flag-caption {
+  text-align: center;
 }
 
 p {
