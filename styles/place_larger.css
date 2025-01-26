@@ -11,7 +11,8 @@
     }
 
     main {
-        position: relative;               
+        position: relative; 
+        padding-top: 3rem;              
     }
     
     picture img {
@@ -25,6 +26,10 @@
         padding: 1rem 2rem 1rem 0;
         position: absolute;
         opacity: 0.8;
+    }
+
+    section {
+        position: relative;
     }
 
     .data {
@@ -43,6 +48,8 @@
         padding: 1rem 0 1rem 2rem;
         display: flex;
         justify-content: flex-start;
+        position: relative;
+        left: -10px;
     }
 
     .weather-title {
@@ -51,6 +58,8 @@
         justify-content: space-between;
         background-color: var(--first-color);
         padding: 1rem 0 0 2rem;
+        position: relative;
+        left: -10px;
     }
 
     .weather-title img {
