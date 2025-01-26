@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals| Country Page Activity</title>
+    <meta name="description" content="Here the user finds information about the autor's country of origin, which consists in relevant data, weather, etc.">
+    <meta name="author" content="Abelardo Bermeo Andrade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/place.css">
+    <link rel="stylesheet" href="./styles/place_larger.css">
+</head>
+<body>
+    <header>
+        <h1>Colombia</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/place-img-large.webp" media="(min-width: 701px)">
+            <img src="images/place-img.webp" alt="guacamaya" width="701">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <td class="left"><strong>Area:</strong></td>
+                    <td class="right">1,141,748 km²</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Population:</strong></td>
+                    <td class="right">52 million</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Capital:</strong></td>
+                    <td class="right">Bogotá</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Languages:</strong></td>
+                    <td class="right">Spanish</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Currency:</strong></td>
+                    <td class="right">Peso (COP)</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Time Zone:</strong></td>
+                    <td class="right">UTC-5</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Calling Code:</strong></td>
+                    <td class="right">+57</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Internet TLD:</strong></td>
+                    <td class="right">.co</td>
+                </tr>
+            </table>
+        </section> 
+        <section class="weather">
+            <div class="weather-title">
+                <h2>Weather</h2>
+                <img src="images/weather-img.svg" alt="weather-image">
+            </div>
+            <table>
+                <tr>
+                    <td class="left"><strong>Temperature:</strong></td>
+                    <td class="right temperature">32</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Conditions:</strong></td>
+                    <td class="right">Mostly cloudy</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Wind:</strong></td>
+                    <td class="right wind_speed">7.8</td>
+                </tr>
+                <tr>
+                    <td class="left"><strong>Wind Chill:</strong></td>
+                    <td class="right" id="windchill"></td>
+                </tr>
+            </table>
+        </section>       
+    </main>
+    <footer>
+        <p class="footer-js">©<span id="currentYear"></span> | Abelardo Bermeo Andrade | Colombia</p>
+        <p class="footer-js"><span id="lastModified"></span></p>
+    </footer>
+    <script src="./scripts/place.js" defer></script>    
+</body>
+</html>

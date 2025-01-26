@@ -1,0 +1,59 @@
+:root {
+    --first-color: #F7F06D;
+    --second-color: #5BC3EB;
+    --third-color: #F06449; 
+}
+
+@media screen and (min-width: 701px) {
+
+    header {
+        font-size: 1.5rem;
+    }
+
+    main {
+        position: relative;               
+    }
+    
+    picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .data, .weather {
+        width: 326px;
+        background-color: whitesmoke;
+        padding: 1rem 2rem 1rem 0;
+        position: absolute;
+        opacity: 0.8;
+    }
+
+    .data {
+        top: 1.5rem;
+        left: 1rem;
+    }
+
+    .weather {
+        bottom: 6rem;
+        right: 1rem;
+    }
+
+    .data h2 {
+        background-color: var(--first-color);
+        margin-bottom: 0;
+        padding: 1rem 0 1rem 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .weather-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--first-color);
+        padding: 1rem 0 0 2rem;
+    }
+
+    .weather-title img {
+        width: 3rem;
+    }
+}
