@@ -98,6 +98,13 @@ h2 {
     margin: 0 auto;
     gap: 30px;
     margin: 1rem 3rem 3rem 3rem;
+    min-height: 400px;
+}
+
+section {
+    display: grid;
+    justify-content: center;
+    min-height: 400px;
 }
 
 h3 {
@@ -116,9 +123,11 @@ ul {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    max-height: auto;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.6);
     animation: fade 10s;
+    object-fit: cover;
 }
 
 @keyframes fade {
@@ -145,10 +154,6 @@ img {
     .temples {
         grid-template-columns: 1fr;
     }
-
-    h2 {
-        grid-column: span 1;
-    }
 }
 
 footer {
@@ -157,6 +162,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-size: 1.2rem;
     height: 15vh;
+    min-height: 100px;
   }
 
 .footer-js {
