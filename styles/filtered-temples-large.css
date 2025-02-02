@@ -1,0 +1,29 @@
+@media screen and (min-width: 50em) {
+    header {
+        height: 5rem;
+        background-color: var(--accent1-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navigation {
+        display: flex;
+        list-style: none;
+        padding-right: 3rem;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.2rem;
+        padding-left: 3rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        transition: all 0.2s ease;
+    }
+
+    #menu {
+        display: none;
+    }
+}
