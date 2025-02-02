@@ -18,7 +18,7 @@ const temples = [
       dedicated: "2005, August, 7",
       area: 11500,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/320x200/aba-nigeria-temple-lds-1636397-wallpaper.jpg"
     },
     {
       templeName: "Manti Utah",
@@ -26,7 +26,7 @@ const temples = [
       dedicated: "1888, May, 21",
       area: 74792,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/320x200/manti-temple-766504-wallpaper.jpg"
     },
     {
       templeName: "Payson Utah",
@@ -34,7 +34,7 @@ const temples = [
       dedicated: "2015, June, 7",
       area: 96630,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/320x200/payson-utah-temple-daylight-1416668-wallpaper.jpg"
     },
     {
       templeName: "Yigo Guam",
@@ -42,7 +42,7 @@ const temples = [
       dedicated: "2020, May, 2",
       area: 6861,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/320x200/yigo_guam_temple_4.jpg"
     },
     {
       templeName: "Washington D.C.",
@@ -50,7 +50,7 @@ const temples = [
       dedicated: "1974, November, 19",
       area: 156558,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/320x200/washington_dc_temple-exterior-2.jpeg"
     },
     {
       templeName: "Lima Perú",
@@ -58,15 +58,15 @@ const temples = [
       dedicated: "1986, January, 10",
       area: 9600,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
-    },
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/320x200/lima-peru-mormon-temple-911889-wallpaper.jpg"
+    },  
     {
       templeName: "Mexico City Mexico",
       location: "Mexico City, Mexico",
       dedicated: "1983, December, 2",
       area: 116642,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/320x200/mexico-city-temple-exterior-1522387-wallpaper.jpg"
     },
     {
         templeName: "Bogotá Colombia",
@@ -74,7 +74,7 @@ const temples = [
         dedicated: "1999, April, 24",
         area: 53500,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bogota-colombia/400x250/bogota-colombia-temple-lds-1029726-wallpaper.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bogota-colombia/320x200/bogota-colombia-temple-lds-1029726-wallpaper.jpg"
     },
     {
         templeName: "Rome Italy",
@@ -82,7 +82,7 @@ const temples = [
         dedicated: "2019, March, 10",
         area: 41010,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/400x250/5-Rome-Temple-2160345.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/320x200/5-Rome-Temple-2160345.jpg"
     },
     {
         templeName: "Fukuoka Japan",
@@ -90,7 +90,7 @@ const temples = [
         dedicated: "2000, June, 11",
         area: 10700,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fukuoka-japan/400x250/fukuoka-japan-temple-lds-306863-wallpaper.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fukuoka-japan/320x200/fukuoka-japan-temple-lds-306863-wallpaper.jpg"
     },
     {
         templeName: "Trujillo Perú",
@@ -98,15 +98,15 @@ const temples = [
         dedicated: "2015, June, 21",
         area: 28200,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/trujillo-peru/400x250/trujillo-peru-temple-exterior-1449769-wallpaper.jpg"
-    },
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/trujillo-peru/320x200/trujillo-peru-temple-exterior-1449769-wallpaper.jpg"
+    },        
     {
         templeName: "Barranquilla Colombia",
         location: "Barranquilla, Colombia",
         dedicated: "2018, December, 9",
         area: 25349,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/400x250/2-Barranquilla-Columblia-Temple-2135201.jpg"
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/320x200/3-Barranquilla-Columblia-Temple-2135198.jpg"
     }
   ];
 
