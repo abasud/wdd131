@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals| Product Review Form</title>
+    <meta name="description" content="This is a product review form page using good form design given specific field requirements and submission confirmation with a counter.">
+    <meta name="author" content="Abelardo Bermeo Andrade">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <p>Product Review</p>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <label class="line">Product name*
+                <select name="product" id="product-name" required>
+                    <option value="">Select a Product...</option>
+                </select>
+            </label>
+            <label class="line">Overall Rating*</label>
+            <div class="stars">
+                <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+            </div>
+            <label for="date-installation" class="line">Date of Installation*
+                <input type="date" id="date-installation" name="date-installation" required>
+            </label>
+            <div class="line">Useful Features of the Product (Check all that apply)
+            <label><input type="checkbox" id="duration" name="duration" value="yes"> Durability</label>
+            <label><input type="checkbox" id="usability" name="usability" value="yes"> Ease of Use</label>
+            <label><input type="checkbox" id="performance" name="performance" value="yes"> Performance</label>
+            <label><input type="checkbox" id="design" name="design" value="yes"> Design</label>
+            </div>
+            <label class="line">Written Review (Optional)<textarea name="written-review" id="paragraph"></textarea></label>           
+            <label class="line">User Name (Optional)<input type="text"></label>
+            <input type="submit" value="Send My Review" class="button">
+        </form>
+    </main>
+    <footer>
+        <p class="footer-js">©<span id="currentYear"></span> | Abelardo Bermeo Andrade | Colombia</p>
+        <p class="footer-js"><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/form.js" defer></script> 
+</body>
+</html>
