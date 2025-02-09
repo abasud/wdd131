@@ -21,15 +21,12 @@ body {
     }
 }
 
-header {
+h1 {
     height: auto;
     background-color: var(--accent2-color);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-header p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 2rem;
