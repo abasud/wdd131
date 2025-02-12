@@ -30,7 +30,7 @@ body {
 
 main {
     background-color: var(--accent3-color);
-    padding: 1rem 1rem 3rem 1rem;
+    padding: 1rem;
     max-width: 800px;
     border: solid 2px var(--primary-color);
     margin-bottom: 2rem;
@@ -48,4 +48,22 @@ p, li {
 
 ul {
     padding-left: 1rem;
+}
+
+figcaption {
+    font-family: "Roboto", sans-serif;
+}
+
+.wireframe {
+    display: grid;
+    grid-template-rows: 1fr 0.7fr;
+    justify-content: center;
+}
+
+.large {
+    padding-top: 2rem;
+}
+
+.large img {
+    max-width: 700px;
 }
